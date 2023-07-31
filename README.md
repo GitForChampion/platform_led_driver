@@ -1,7 +1,7 @@
 # platform_led_driver
 platform开发——led驱动
 
-### platform总线驱动
+# platform总线驱动
 platform是一种虚拟总线，主要用来管理那些不需要时序通信的设备
 基本结构图：
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6fcf923c-2afb-40a5-935c-8783e3a12b22/Untitled.png)
@@ -62,7 +62,7 @@ struct resource *platform_get_resource(struct platform_device *dev,unsigned int 
 */
 ```
 
-## 核心数据类型之platform_driver
+### 核心数据类型之platform_driver
 ```c
 struct platform_driver 
 {
