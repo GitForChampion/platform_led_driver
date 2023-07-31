@@ -62,7 +62,7 @@ struct resource *platform_get_resource(struct platform_device *dev,unsigned int 
 */
 ```
 
-###核心数据类型之platform_driver
+#### 核心数据类型之platform_driver
 ```c
 struct platform_driver 
 {
