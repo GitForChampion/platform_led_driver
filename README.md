@@ -3,8 +3,10 @@ platform开发——led驱动
 
 # platform总线驱动
 platform是一种虚拟总线，主要用来管理那些不需要时序通信的设备
+
 基本结构图：
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6fcf923c-2afb-40a5-935c-8783e3a12b22/Untitled.png)
+
+![](https://img-blog.csdnimg.cn/cecaf015d17b4df7a61bcd34facc4eaf.png)
 
 ### 核心数据类型之platform_device
 ```c
